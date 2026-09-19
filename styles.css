@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./img/image_95e12d4c.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.conteiner {
+    width: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+}
+
+.conteiner h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    width: 80%;
+    height: 50px;
+    margin: 30px auto;
+    
+    
+}
+
+.input-box input {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+   color:  rgb(158, 158, 158); 
+}
+
+.input-box input  i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input-box #mostrarSenha {
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: -15px 0 15px;
+    
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    text-decoration:none;
+    color: #fff;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.login {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    transition: 0.9s;
+}
+
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0 15px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+}
